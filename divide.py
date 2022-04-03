@@ -1,6 +1,6 @@
 
 def divide(x, y):
-    result, power =0, 32
+    result, power = 0, 32
     y_power = y << power
     while x >= y:
         while y_power > x:
@@ -12,5 +12,5 @@ def divide(x, y):
 
 x = 0b1101
 y = 0b11
-output = divide(input)
+output = divide(x, y)
 print(x, y, output)
