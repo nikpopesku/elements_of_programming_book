@@ -8,3 +8,7 @@ def closest_int_same_bit_count(x):
 
     # Raise error if all bits of x are 0 or 1.
     raise ValueError('All bits are 0 or 1')
+
+input = 10
+output = closest_int_same_bit_count(input)
+print(input, output, bin(input), bin(output))
