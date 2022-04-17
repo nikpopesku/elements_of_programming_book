@@ -36,5 +36,4 @@ def create_single_linked_list(arr):
     return next
 
 l1 = create_single_linked_list([1,2,3,4,5,6])
-output = reverse_sublist(l1, 3, 5)
-print(input, output)
+reverse_sublist(l1, 3, 5).print()
